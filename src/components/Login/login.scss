@@ -1,0 +1,153 @@
+.mainDiv{
+    width: 100%;
+    height: 100vh;
+    background: #8ca1f0;
+}
+.loginBody{
+    width: 70%;
+    height: 90%;
+    // background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(107, 107, 209);
+    color: white;
+    box-shadow: 0px 0px 17px -5px black;
+    .heading{
+        text-align: center;
+        height: 15%;
+        margin: 0px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login{
+        display: flex;
+        height: 85%;
+        .SignIn{
+            width: 100%;
+            height: 100%;
+            background-color: #39385a;
+            color: #ddddf7;
+            overflow: hidden;
+            transition: 0.3s;
+            h3{
+                text-align: center;
+                margin: 10px;
+            }
+            .signInMethod{
+                display: flex;
+                flex-direction: column;
+                .signInForm{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    h4{
+                        margin: 5px;
+                    }
+                    button{
+                        width: 30%;
+                        border-radius: 30px;
+                        border: none;
+                        padding: 10px;
+                    }
+                    .creatAcc{
+                        margin: 0px;
+                        span{
+                            font-weight: bold;
+                            cursor: pointer;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+                hr{
+                    width: 100%;
+                }
+                .signInButton{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .signInFields{
+                    height: 40px;
+                    width: 40%;
+                    margin-bottom: 20px;
+                    font-size: 17px;
+                    padding: 0px 10px;
+                }
+            
+            }
+        }
+        .SignUp{
+            width: 100%;
+            height: 100%;
+            color: #39385a;
+            background-color: #ddddf7;
+            text-align: center;
+            width: 0;
+            overflow: hidden;
+            transition: 0.3s;
+            float: right;
+            .signUpForm{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .signName{
+                    height: 40px;
+                    width: 42%;
+                    margin-bottom: 20px;
+                    font-size: 17px;
+                    // padding: 0px 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    .signUpFields{
+                        width: 43%;
+                    font-size: 17px;
+                    padding: 0px 10px;
+
+
+                    }
+                }
+                .emailPass{
+                    display: flex;
+                    flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                .signUpFields{
+                    height: 40px;
+                    width: 100%;
+                    margin-bottom: 20px;
+                    font-size: 17px;
+                    padding: 0px 10px;
+                }
+            }
+            button{
+                width: 20%;
+                border-radius: 30px;
+                border: none;
+                padding: 10px;
+            }
+            .haveAcc{
+                    margin: 0px;
+                    span{
+                        font-weight: bold;
+                        cursor: pointer;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
